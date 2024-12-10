@@ -4,15 +4,15 @@ import "fmt"
 
 func main() {
 
-	students := []string{
+	students := deck{
 		"Kofi",
 		"John",
 		"Jane",
 	}
 
-	for i, student := range students {
-		fmt.Println(i, student)
-	}
+	// for i, student := range students {
+	// 	fmt.Println(i, student)
+	// }
 	students = append(students, newCard())
 
 	fmt.Println(students)
