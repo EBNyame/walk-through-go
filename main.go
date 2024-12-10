@@ -16,6 +16,7 @@ func main() {
 	students = append(students, newCard())
 
 	fmt.Println(students)
+	students.Println()
 
 }
 
